@@ -21,7 +21,7 @@ export default function Home() {
       <Nav>This is nav in travel advisor, it is component of subscriber app</Nav>
       <main className={`${styles.main} ${inter.className}`}>
         <h1 className={styles.title}>
-          Welcome to travel advisor app port: 3001
+          Welcome to travel advisor app
         </h1>
         <Link href="/destinations">destinations</Link>
       </main>
