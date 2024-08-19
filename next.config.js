@@ -8,11 +8,12 @@ const nextConfig = {
   webpack: (config, options) => {
     const { isServer } = options;
     //config.experiments = { topLevelAwait: true, layers: false };
+    const subscriberAppUrl = process.env.NEXT_PUBLIC_SUBSCRIBER_APP_URL;
     config.plugins.push(
       new NextFederationPlugin({
         name: 'advisor',
         remotes: {
-          subscriberApp: `subscriberApp@https://subscriber-portal.vercel.app/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
+          subscriberApp: `subscriberApp@${subscriberAppUrl}/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
         },
         filename: 'static/chunks/remoteEntry.js',
         exposes: {

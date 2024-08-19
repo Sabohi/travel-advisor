@@ -8,6 +8,8 @@ First, run the development server:
 
 ```bash
 npm run dev
+# for windows
+npm run dev-window
 # or
 yarn dev
 # or
