@@ -23,6 +23,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to travel advisor app port: 3001
         </h1>
+        <Link href="/destinations">destinations</Link>
       </main>
       <Footer></Footer>
     </>
