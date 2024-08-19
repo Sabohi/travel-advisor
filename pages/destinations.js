@@ -19,7 +19,7 @@ export default function DestinationPage() {
             <h1 className={styles.title}>
                 this is the destination page
             </h1>
-            <h2>More changes</h2>
+            <h2>With destination component</h2>
             <DestinationComponent/>
         </main>
         <Footer></Footer>
