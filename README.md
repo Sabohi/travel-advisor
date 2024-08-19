@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This is an example of module federation with Next 14
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This is an example of module federation with Next 14, you can refer to repo travel-advisor which is used in this module
+
+It used nextjs-mf version 8.2.0
 
 ## Getting Started
 
